@@ -1,0 +1,57 @@
+{
+    "manifestVersion": 1,
+    "id": "AzureStorageUpload",
+    "name": "Azure Storage Upload",
+    "version": "1.0.3",
+    "publisher": "MFelling",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Build task to upload a file to Azure storage",
+    "categories": [
+        "Build and release"
+    ],
+	"galleryFlags": [
+		"Public"
+	],
+	"tags": [
+        "Azure",
+        "Container",
+		"Blob",
+		"Storage",
+		"Fileshare",
+        "Upload"
+    ],
+	 "screenshots": [
+        {
+			"path": "screenshot.png"
+        }
+    ],
+	"content": {
+        "details": {
+            "path": "overview.md"
+        }
+    },
+    "icons": {
+        "default": "icon.png"
+    },
+    "files": [
+        {
+            "path": "AzureStorageUpload"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "custom-build-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "AzureStorageUpload"
+            }
+        }
+    ]
+}
