@@ -1,1 +1,0 @@
-# AzureStorageUpload-VSTS-Extension
