@@ -1,3 +1,5 @@
+Find it in the VSTS Marketplace: [https://marketplace.visualstudio.com/items?itemName=MFelling.AzureStorageUpload](https://marketplace.visualstudio.com/items?itemName=MFelling.AzureStorageUpload)
+
 ### Upload a file to Azure storage
 **Pricing:** Free
 
