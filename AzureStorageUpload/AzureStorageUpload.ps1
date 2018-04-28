@@ -5,7 +5,7 @@ Function FileUpload($Source, $Pattern, $Dest, $DestKey) {
 
     # Begin Upload
     Write-Output "Uploading $source/$pattern"
-    & "$PSScriptRoot\AzCopy\AzCopy.exe" /Source:$source /Dest:$Dest /DestKey:$DestKey /Pattern:$Pattern
+    & "$PSScriptRoot\AzCopy\AzCopy.exe" /Source:$source /Dest:$Dest /DestKey:$DestKey /Pattern:$Pattern /S
 }
 
 Trace-VstsEnteringInvocation $MyInvocation
