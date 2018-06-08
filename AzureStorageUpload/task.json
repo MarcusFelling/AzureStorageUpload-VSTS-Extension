@@ -51,7 +51,7 @@
         {
             "name": "AdditionalOptions",
             "type": "string",
-            "label": "Key",
+            "label": "Additional Options",
             "required": false,
             "helpMarkDown": "Add additional options for azcopy like /SetContentType"
 	}
