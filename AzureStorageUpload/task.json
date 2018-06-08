@@ -47,7 +47,14 @@
             "defaultValue": "$(SecretKey)",
             "required": true,
             "helpMarkDown": "Key to the specified storage location. I recommend using a secret build variable: https://www.visualstudio.com/en-us/docs/build/define/variables#secret-variables"
-        }
+        },
+        {
+            "name": "AdditionalOptions",
+            "type": "string",
+            "label": "Additional Options",
+            "required": false,
+            "helpMarkDown": "Add additional options for azcopy like /SetContentType"
+	}
     ],
     "instanceNameFormat":  "Upload file Azure Storage",
 	"execution":  {
